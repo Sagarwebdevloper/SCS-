@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>Smart Computer Study</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="logo.webp" type="image/x-logo"> 
+<style>
+	* {
+  box-sizing: border-box;
+}
+* body {
+	background-image: url(Bc.webp);
+	 display: flex;
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+
+}
+.title p{
+	margin-top: 20px;
+	font-size: 35px;
+	padding-left: 100px;
+	margin-right: 20px;
+	font-family: arial black;
+	color: darkorange;
+
+}
+
+.Container{
+	background-color: lightgray;
+	background-size: 5px;
+	 align-items: center;
+	 justify-content: center;
+	margin: 220px;
+    opacity: 0.5;
+	width: calc(100%/2 - 20px);
+	border: 5px;
+	border: blue;
+	border-radius: 7px;
+	border: 10px solid lightpink;
+
+}
+
+.Container:hover{
+	opacity: 75%;
+}
+.Container h1{
+	font-family: arial;
+	text-align: center;
+	padding-top: 10px;
+	opacity: 25;
+
+}
+
+.Container h1.logo{
+	padding-right: 200px;
+	opacity: 25;
+}
+
+.Container h4{
+	font-family: initial;
+	text-align: center;
+
+	border-bottom: 3px dashed blue;
+	padding-bottom: 5px;
+	opacity: 25;
+
+}
+.Container .Addmission2 input{
+	width: calc(100%/2 - 20px);
+	opacity: 25;
+	margin: 8px;
+	border-radius: 7px;
+
+}
+
+.Container .Addmission2 .text{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.Container .Addmission2 select{
+	margin: 9px ;
+	opacity: 25;
+	border-radius: 7px;
+}
+
+.Container .Addmission2 select.shift{
+	padding-left: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.Container .Addmission2 .button{
+	cursor: pointer;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: White;
+	font-size: 20px;
+	font-family: bell met;
+	opacity:100%;
+
+}
+.Container .Addmission2 .button:hover{
+	opacity:50%;
+		
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+
+<body>
+
+	<div class="title">
+		<p>Wellcome to the SCS.</p>
+	</div>
+
+	<div class="Container"  style="align-items: center;">
+		<h1> <div class="logo"><img src="F:\New folder\App web\New folder/logo.webp" width="50px" height="50px"style="align-items: left;"> Wellcome Students</div></h1>
+
+		<h4>Fill Your Details and get the Addmission in SCS</h4>
+		<form class="Addmission" >
+			<div class="Addmission2">
+			<input type="text" name="First Name" placeholder="Enter your First Name*" class="text" required>
+			<input type="Text" name="Last Name"  placeholder="Enter your Last Name*"class="text" required><br>
+			<input type="Text" name="Father's Name" placeholder="Ente your Father's Name*"class="text" required>
+			<input type="text" name="Mother's Name" placeholder="Enter your Mother's Name*"class="text" required><br>
+			<input type="text" name="Mobile" placeholder="Enter your Mobile Number*"class="text" maxlength="10" minlength="10" required>
+			<input type="email" name="Email" placeholder="Enter Your E-mail ID*"class="text" required><br>
+			<select  name="Select Course"class="shift" required>
+				<option value="Select">Select Course</option>
+				<option value="Select">BCC</option>
+				<option value="Select">HTML & CSS</option>
+				<option value="Select">PHOTOSHOP</option>
+				<option value="Select">CYBER SECUIRTY</option>
+				<option value="Select">GRAPHIC DESIGNING</option>
+				<option value="Select">DCA</option>
+			</select>
+			<select  name="Select Shift" class="shift"required>
+				<option value="Select">Select Shift</option>
+				<option value="Select">08:30 to 10:00</option>
+				<option value="Select">10:00 to 11:30</option>
+				<option value="Select">11:30 to 01:00</option>
+				<option value="Select">01:00 to 01:30</option>
+				<option value="Select">02:30 to 04:00</option>
+				<option value="Select">04:00 to 05:00</option>
+			</select>
+
+
+			<br>
+			<input type="text" name="Address" placeholder="Enter Your Persent Address*"class="text" required>
+			<input type="text" name="Distt" placeholder="Enter our District"class="text"required><br>
+			<input type="text" name="State" placeholder="Ente your State*"class="text" required>
+			<input type="text" name="Pin code" placeholder="Enter your Pin code*" class="text" minlength="6" maxlength="6" required><br>
+
+			<input type="submit" name="Button" style="background: Green;border-radius:7px;"class="button"> 
+
+			<input type="reset" name="reset" style="background: Red; border-radius:7px;" class="button">
+			<br><br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="F:\New folder\App web\New folder/Index.html">Home</a><br><br>
+		</div>
+
+		</form>
+
+
+	</div>
+
+
+	
+
+
+</body>
+
+</html>
